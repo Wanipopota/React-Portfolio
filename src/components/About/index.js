@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../assets/profilePic/logo.jpg";
+import profilePic from "../../assets/profilePic/logo.png"
 function About() {
   return (
     <section id="about-me" className="my-5 intro">
@@ -8,7 +8,7 @@ function About() {
           About Me
         </h1>
       </div>
-      <div className="flex-row">
+      <div className="flex-row" id="text-box">
         <div class="intro-info">
           <div class="intro-img">
             <img src={profilePic} style={{ width: "100%" }} alt="profile" />

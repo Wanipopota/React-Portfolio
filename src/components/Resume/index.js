@@ -1,5 +1,5 @@
 import React from "react";
-//import myResume from "../../assets/files/Lindsey_Martin_Resume_2023.pdf";
+import myResume from "../../assets/resume/resume2024.pdf";
 import { BsCloudDownload } from "react-icons/bs";
 import { DiAptana } from "react-icons/di";
 import { DiDatabase } from "react-icons/di";
@@ -25,9 +25,9 @@ function Resume() {
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              {/* <a href={} className="download-logo" download>
+              <a href={myResume} className="download-logo" download>
                 <BsCloudDownload />
-              </a> */}
+              </a>
               <p>
                 Feel free to check the list of Developer
                 Proficiencies
