@@ -6,7 +6,6 @@ function Footer() {
   return (
     <footer>
       <h2>Made by wanipopota©</h2>
-      <p>
         <ul>
           <a href="https://github.com/Wanipopota">
             <li className="logo">
@@ -19,7 +18,6 @@ function Footer() {
             </li>
           </a>
         </ul>
-      </p>
     </footer>
   );
 }

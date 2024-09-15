@@ -1,19 +1,7 @@
 import React from "react";
-import myResume from "../../assets/resume/resume2024.pdf";
+import myResume from "../assets/resume/resume2024.pdf";
 import { BsCloudDownload } from "react-icons/bs";
-import { DiAptana } from "react-icons/di";
-import { DiDatabase } from "react-icons/di";
-import { DiCss3 } from "react-icons/di";
-import { DiBootstrap } from "react-icons/di";
-import { DiHtml5 } from "react-icons/di";
-import { DiJavascript } from "react-icons/di";
-import { DiMaterializecss } from "react-icons/di";
-import { DiMongodb } from "react-icons/di";
-import { DiNodejs } from "react-icons/di";
-import { DiReact } from "react-icons/di";
-import { DiCodeBadge } from "react-icons/di";
-
-
+import { DiAptana, DiDatabase, DiCss3, DiBootstrap, DiHtml5, DiJavascript, DiMaterializecss, DiMongodb, DiNodejs, DiReact, DiCodeBadge } from "react-icons/di";
 
 function Resume() {
   return (
@@ -29,18 +17,20 @@ function Resume() {
                 <BsCloudDownload />
               </a>
               <p>
-                Feel free to check the list of Developer
-                Proficiencies
+                Feel free to check the list of Developer Proficiencies
               </p>
             </div>
           </div>
         </div>
-        <marquee width="100%" id="bn"> <DiNodejs /> <DiReact /> <DiMongodb /> <DiCss3 /><DiBootstrap /> <DiHtml5 /> <DiJavascript /> <DiMaterializecss /></marquee>
+        <marquee width="100%" id="bn">
+          <DiNodejs /> <DiReact /> <DiMongodb /> <DiCss3 /><DiBootstrap /> <DiHtml5 /> <DiJavascript /> <DiMaterializecss />
+        </marquee>
       </section>
+
       <section id="home-page-body" className="resume-body">
         <div className="article column1">
-          <p className="column-title">Font-End Tech</p>
-          <p className="column-text">
+          <div className="column-title">Font-End Tech</div>
+          <div className="column-text">
             <ul>
               <li className="logo">
                 <DiCodeBadge />
@@ -51,11 +41,11 @@ function Resume() {
               <li>APIs</li>
               <li>CSS Framework</li>
             </ul>
-          </p>
+          </div>
         </div>
         <div className="article column2">
-          <p className="column-title">Back-End Tech</p>
-          <p className="column-text">
+          <div className="column-title">Back-End Tech</div>
+          <div className="column-text">
             <ul>
               <li className="logo">
                 <DiAptana />
@@ -65,14 +55,14 @@ function Resume() {
               <li>Express.js</li>
               <li>SQL</li>
               <li>Sequelize</li>
-              <li>Object-Relational Mapping(ORM)</li>
+              <li>Object-Relational Mapping (ORM)</li>
               <li>Model-View-Controller (MVC)</li>
             </ul>
-          </p>
+          </div>
         </div>
         <div className="article column3">
-          <p className="column-title">Performance Tech</p>
-          <p className="column-text">
+          <div className="column-title">Performance Tech</div>
+          <div className="column-text">
             <ul>
               <li className="logo">
                 <DiDatabase />
@@ -85,7 +75,7 @@ function Resume() {
               <li>MERN</li>
               <li>State</li>
             </ul>
-          </p>
+          </div>
         </div>
       </section>
     </div>

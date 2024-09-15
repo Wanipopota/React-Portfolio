@@ -1,9 +1,9 @@
 import React from "react";
-import bookSearch from "../../assets/projectsPic/bookSearch.png"
-import jate from "../../assets/projectsPic/jate.png"
-import jokeGame from "../../assets/projectsPic/jokeGame.png"
-import noteTaker from "../../assets/projectsPic/noteTaker.png"
-import weather from "../../assets/projectsPic/Weather.png"
+import bookSearch from "../assets/projectsPic/bookSearch.png"
+import jate from "../assets/projectsPic/jate.png"
+import jokeGame from "../assets/projectsPic/jokeGame.png"
+import noteTaker from "../assets/projectsPic/noteTaker.png"
+import weather from "../assets/projectsPic/Weather.png"
 
 function Projects() {
   return (

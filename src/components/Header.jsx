@@ -1,5 +1,5 @@
 import React from "react";
-import Navegation from "../Navegation";
+import Navegation from "./Navegation";
 
 function Header(props) {
   const { currentTab, handleTabChange } = props;
@@ -19,8 +19,8 @@ function Header(props) {
           </div>
         </header>
       </section>
-      <section class="hero">
-        <div class="hero-cta">
+      <section className="hero">
+        <div className="hero-cta">
           <h2>Welcome</h2>
           <p>
             Welcome to Wanipopotas's portfolio page, which is crafted with React.
