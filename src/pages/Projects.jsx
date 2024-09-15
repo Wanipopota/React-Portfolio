@@ -16,7 +16,7 @@ function Projects() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="">
+              <a href="https://github.com/Wanipopota/Book-Search-Engine">
                 {" "}
                 <img
                   src={bookSearch}
@@ -40,7 +40,7 @@ function Projects() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="">
+              <a href="https://github.com/Wanipopota/Text-editor">
                 {" "}
                 <img
                   src={jate}
@@ -67,7 +67,7 @@ function Projects() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="">
+              <a href="https://github.com/Wanipopota/project-1-game">
                 {" "}
                 <img
                   src={jokeGame}
@@ -91,7 +91,7 @@ function Projects() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="">
+              <a href="https://github.com/Wanipopota/note-taker">
                 {" "}
                 <img
                   src={noteTaker}
@@ -115,7 +115,7 @@ function Projects() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="">
+              <a href="https://github.com/Wanipopota/weather-dashboard">
                 {" "}
                 <img
                   src={weather}
