@@ -16,7 +16,7 @@ The React Portfolio is designed to provide a professional and clean layout for s
 
 ## Deplyment 
 
-https://66e8dcbf9aca2566ee965b20--aquamarine-zabaione-507988.netlify.appLinks to an external site.
+https://66e8dcbf9aca2566ee965b20--aquamarine-zabaione-507988.netlify.app/ 
 
 ## Instructions
 
