@@ -14,6 +14,10 @@ A personal portfolio project built using React and Vite. This portfolio showcase
 
 The React Portfolio is designed to provide a professional and clean layout for showcasing your projects and skills. It's fast, optimized, and easy to deploy, making it ideal for any developer who wants to present their work in an elegant manner.
 
+## Deplyment 
+
+https://66e8dcbf9aca2566ee965b20--aquamarine-zabaione-507988.netlify.appLinks to an external site.
+
 ## Instructions
 
 To get started with this project, follow the instructions below.
